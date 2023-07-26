@@ -650,6 +650,14 @@ video {
   margin-top: 1.25rem;
 }
 
+.-mt-4 {
+  margin-top: -1rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
 .block {
   display: block;
 }
@@ -1058,6 +1066,26 @@ body {
     margin-top: 2.25rem;
   }
 
+  .lg\:-mt-6 {
+    margin-top: -1.5rem;
+  }
+
+  .lg\:mb-5 {
+    margin-bottom: 1.25rem;
+  }
+
+  .lg\:ml-9 {
+    margin-left: 2.25rem;
+  }
+
+  .lg\:mr-12 {
+    margin-right: 3rem;
+  }
+
+  .lg\:mt-8 {
+    margin-top: 2rem;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -1088,6 +1116,10 @@ body {
 
   .lg\:pt-10 {
     padding-top: 2.5rem;
+  }
+
+  .lg\:text-left {
+    text-align: left;
   }
 
   .lg\:text-2xl {
